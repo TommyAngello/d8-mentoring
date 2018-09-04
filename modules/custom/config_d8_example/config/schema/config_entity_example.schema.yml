@@ -1,0 +1,12 @@
+config_d8_example.config_entity_example.*:
+  type: config_entity
+  label: 'Config Entity Example config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

@@ -1,0 +1,9 @@
+
+# Config Entity Example menu items definition
+entity.config_entity_example.collection:
+  title: 'Config Entity Example'
+  route_name: entity.config_entity_example.collection
+  description: 'List Config Entity Example (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

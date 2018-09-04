@@ -1,0 +1,30 @@
+add content entity example entities:
+  title: 'Create new Content Entity Example entities'
+
+administer content entity example entities:
+  title: 'Administer Content Entity Example entities'
+  description: 'Allow to access the administration form to configure Content Entity Example entities.'
+  restrict access: true
+
+delete content entity example entities:
+  title: 'Delete Content Entity Example entities'
+
+edit content entity example entities:
+  title: 'Edit Content Entity Example entities'
+
+view published content entity example entities:
+  title: 'View published Content Entity Example entities'
+
+view unpublished content entity example entities:
+  title: 'View unpublished Content Entity Example entities'
+
+view all content entity example revisions:
+  title: 'View all Content Entity Example revisions'
+
+revert all content entity example revisions:
+  title: 'Revert all Content Entity Example revisions'
+  description: 'Role requires permission <em>view Content Entity Example revisions</em> and <em>edit rights</em> for content entity example entities in question or <em>administer content entity example entities</em>.'
+
+delete all content entity example revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Content Entity Example revisions</em> and <em>delete rights</em> for content entity example entities in question or <em>administer content entity example entities</em>.'

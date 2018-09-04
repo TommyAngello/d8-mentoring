@@ -1,0 +1,5 @@
+name: 'Config D8 Example'
+type: module
+description: 'Module provides base files for Config Entity D8 Example'
+core: 8.x
+package: 'Custom Entites'

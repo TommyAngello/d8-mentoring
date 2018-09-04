@@ -1,0 +1,22 @@
+{#
+/**
+ * @file content_entity_example.html.twig
+ * Default theme implementation to present Content Entity Example data.
+ *
+ * This template is used when viewing Content Entity Example pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_content_entity_example()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('content_entity_example') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

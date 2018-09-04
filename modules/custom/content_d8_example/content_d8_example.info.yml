@@ -1,0 +1,5 @@
+name: 'Content D8 Example'
+type: module
+description: 'Module provides base files for Content Entity D8 Example'
+core: 8.x
+package: 'Custom Entities'

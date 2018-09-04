@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains config_d8_example.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function config_d8_example_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the config_d8_example module.
+    case 'help.page.config_d8_example':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module provides base files for Config Entity D8 Example') . '</p>';
+      return $output;
+
+    default:
+  }
+}
