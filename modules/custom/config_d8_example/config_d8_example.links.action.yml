@@ -1,0 +1,6 @@
+entity.config_entity_example.add_form:
+  route_name: entity.config_entity_example.add_form
+  title: 'Add Config Entity Example'
+  appears_on:
+    - entity.config_entity_example.collection
+

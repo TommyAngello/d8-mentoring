@@ -1,0 +1,14 @@
+
+# Content Entity Example menu items definition
+entity.content_entity_example.collection:
+  title: 'Content Entity Example list'
+  route_name: entity.content_entity_example.collection
+  description: 'List Content Entity Example entities'
+  parent: system.admin_structure
+  weight: 100
+
+content_entity_example.admin.structure.settings:
+  title: 'Content Entity Example settings'
+  description: 'Configure Content Entity Example entities'
+  route_name: content_entity_example.settings
+  parent: system.admin_structure

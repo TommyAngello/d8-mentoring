@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains content_d8_example.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function content_d8_example_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the content_d8_example module.
+    case 'help.page.content_d8_example':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module provides base files for Content Entity D8 Example') . '</p>';
+      return $output;
+
+    default:
+  }
+}

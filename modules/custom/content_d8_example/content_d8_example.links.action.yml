@@ -1,0 +1,5 @@
+entity.content_entity_example.add_form:
+  route_name: entity.content_entity_example.add_form
+  title: 'Add Content Entity Example'
+  appears_on:
+    - entity.content_entity_example.collection
